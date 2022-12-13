@@ -112,8 +112,6 @@ export async function setCustomer(req, res){
         return
     }
 
-    
-
     try {
        
         if(verificaCustomer.rows[0].cpf === cpf.toString()){

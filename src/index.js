@@ -5,6 +5,7 @@ import cors from "cors";
 import categoriesRoutes from "./routes/categoriesRoute.js"
 import gamesRoutes from "./routes/gamesRoutes.js"
 import customersRoutes from "./routes/customersRoutes.js"
+import rentalsRoutes from "./routes/rentalsRoutes.js"
 //
 
 
@@ -16,6 +17,7 @@ app.use(express.json());
 app.use(categoriesRoutes);
 app.use(gamesRoutes);
 app.use(customersRoutes);
+app.use(rentalsRoutes);
 //
 
 
