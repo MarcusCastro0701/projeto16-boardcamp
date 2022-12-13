@@ -4,6 +4,7 @@ import cors from "cors";
 //Routes
 import categoriesRoutes from "./routes/categoriesRoute.js"
 import gamesRoutes from "./routes/gamesRoutes.js"
+import customersRoutes from "./routes/customersRoutes.js"
 //
 
 
@@ -14,6 +15,7 @@ app.use(cors());
 app.use(express.json());
 app.use(categoriesRoutes);
 app.use(gamesRoutes);
+app.use(customersRoutes);
 //
 
 
